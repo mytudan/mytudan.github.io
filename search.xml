@@ -8,7 +8,7 @@
       <link href="/2020/04/03/article/"/>
       <url>/2020/04/03/article/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="js-加载异常"><a class="markdownIt-Anchor" href="#js-加载异常"></a> JS 加载异常</h2><p>在hexo博客中添加live2d插件以后，会出现初始加载页面异常：先有CSS效果然后瞬间失去CSS再恢复CSS。</p><h2 id="原因分析"><a class="markdownIt-Anchor" href="#原因分析"></a> 原因分析</h2><p>初步估计应该是重复加载了live2d的JS导致的。</p><h2 id="解决办法"><a class="markdownIt-Anchor" href="#解决办法"></a> 解决办法</h2><p>尝试用loading bar解决一下，加载完全部页面再显示页面。</p>]]></content>
       
       
       
